@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target=".navbar-menu">
           <span aria-hidden="true" />
@@ -9,7 +9,7 @@
         </a>
       </div>
       <div class="navbar-menu">
-        <div class="navbar-start">
+        <div class="navbar-brand">
           <a href="https://github.com/aimorris" class="navbar-item navbar-github-icon"><font-awesome-icon :icon="['fab', 'github']" /></a>
           <a href="https://gitlab.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'gitlab']" /></a>
           <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>

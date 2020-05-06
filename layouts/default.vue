@@ -36,8 +36,8 @@ html {
 
 .button--custom {
   text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+  padding: 1vw 3vw;
+  margin: 0 1.5vw;
   display: inline-block;
   border-radius: 4px;
 
