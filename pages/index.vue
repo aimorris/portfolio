@@ -6,7 +6,14 @@
         Adam Morris
       </h1>
       <h2 class="subtitle">
-        <vue-typer text="Hello world!"></vue-typer>
+        I am a
+        <vue-typer
+          :text="['web developer', 'Minecraft plugin creator', 'contributor for open-source projects']"
+          :shuffle="true"
+          caret-animation="smooth"
+          :erase-delay="100"
+          erase-style="backspace"
+        />
       </h2>
       <div class="links">
         <a href="https://github.com/aimorris" target="_blank" class="button--github">GitHub</a>
@@ -53,6 +60,10 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.vue-typer .custom.char.typed, .vue-typer .custom.caret {
+  color: #526488;
 }
 
 .links {
