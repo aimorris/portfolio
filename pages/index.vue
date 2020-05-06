@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <client-only>
-      <Particles/>
+      <Particles />
     </client-only>
     <div>
       <h1 class="title">
