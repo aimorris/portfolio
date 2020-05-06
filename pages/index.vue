@@ -10,7 +10,7 @@
       <h2 class="subtitle">
         I am a
         <vue-typer
-          :text="['web developer', 'Minecraft plugin creator', 'contributor for open-source projects']"
+          :text="['web developer', 'Minecraft plugin creator', 'contributor for open-source projects', 'JavaScript developer']"
           :shuffle="true"
           caret-animation="smooth"
           :erase-delay="100"
