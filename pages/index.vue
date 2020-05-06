@@ -24,6 +24,7 @@
 </template>
 
 <style lang="scss">
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
