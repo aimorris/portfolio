@@ -1,11 +1,18 @@
 <template>
   <header class="header">
-    <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target=".navbar-menu">
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+        </a>
+      </div>
       <div class="navbar-menu">
         <div class="navbar-start">
-          <a href="https://github.com/aimorris" class="navbar-item navbar-github-icon"><font-awesome-icon :icon="['fab', 'github']"/></a>
-          <a href="https://gitlab.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'gitlab']"/></a>
-          <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']"/></a>
+          <a href="https://github.com/aimorris" class="navbar-item navbar-github-icon"><font-awesome-icon :icon="['fab', 'github']" /></a>
+          <a href="https://gitlab.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'gitlab']" /></a>
+          <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>
         </div>
         <div class="navbar-end">
           <a href="/" class="navbar-item">Home</a>
@@ -18,11 +25,10 @@
     </nav>
     <script>
       let burger = document.querySelector('.burger')
-      let nav = document.querySelector('#' + burger.dataset.target)
 
-      burger.addEventListener('click', () => {
-        burger.classList.toggle('is-active');
-        nav.classList.toggle('is-active');
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active')
+        document.querySelector(burger.dataset.target).classList.toggle('is-active')
       })
     </script>
   </header>
