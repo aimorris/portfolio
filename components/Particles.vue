@@ -10,26 +10,26 @@ export default {
       particlesJS('particles-js', {
         "particles": {
           "number": {
-            "value": 80,
+            "value": 100,
             "density": {
               "enable": true,
               "value_area": 800
             }
           },
           "color": {
-            "value": "#5D5D81"
+            "value": "#A499B3"
           },
           "shape": {
             "type": "circle"
           },
           "opacity": {
-            "value": 0.5,
-            "random": false,
+            "value": 0.8,
+            "random": true,
             "anim": {
-              "enable": false,
+              "enable": true,
               "speed": 1,
               "opacity_min": 0.1,
-              "sync": false
+              "sync": true
             }
           },
           "size": {
@@ -45,7 +45,7 @@ export default {
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#5D5D81",
+            "color": "#A499B3",
             "opacity": 0.4,
             "width": 1
           },
@@ -83,7 +83,7 @@ export default {
               "duration": 0.4
             },
             "push": {
-              "particles_nb": 4
+              "particles_nb": 5
             }
           }
         },

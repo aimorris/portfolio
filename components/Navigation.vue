@@ -6,6 +6,7 @@
           <a href="/" class="navbar-item">Home</a>
           <a href="/projects" class="navbar-item">Projects</a>
           <a href="/about" class="navbar-item">About</a>
+          <a href="/about" class="navbar-item">Testimonials</a>
           <a href="/contact" class="navbar-item">Contact</a>
         </div>
       </div>
@@ -22,8 +23,11 @@
   </header>
 </template>
 
-<style>
-  .navbar {
-    background: transparent;
+<style lang="scss">
+  .navbar-item {
+    transition: color 0.3s;
+    &:hover {
+      color: #5D5D81;
+    }
   }
 </style>

@@ -34,14 +34,19 @@ html {
   margin: 0;
 }
 
-.button--github {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #666;
-  color: #666;
+.button--custom {
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
+  display: inline-block;
+  border-radius: 4px;
+
+  transition: all 0.2s;
+}
+
+.button--github {
+  border: 1px solid #666;
+  color: #666;
 }
 
 .button--github:hover {
@@ -50,13 +55,10 @@ html {
 }
 
 .button--gitlab {
-  display: inline-block;
-  border-radius: 4px;
   border: 1px solid #FC6D27;
   color: #FC6D27;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+
+  transition:
 }
 
 .button--gitlab:hover {
@@ -65,13 +67,8 @@ html {
 }
 
 .button--bitbucket {
-  display: inline-block;
-  border-radius: 4px;
   border: 1px solid #2684FF;
   color: #2684FF;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
 }
 
 .button--bitbucket:hover {
