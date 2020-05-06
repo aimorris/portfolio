@@ -21,3 +21,9 @@
     </script>
   </header>
 </template>
+
+<style>
+  .navbar {
+    background: transparent;
+  }
+</style>
