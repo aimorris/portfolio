@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
       <div class="navbar-menu">
         <div class="navbar-end">
           <a href="/" class="navbar-item">Home</a>
