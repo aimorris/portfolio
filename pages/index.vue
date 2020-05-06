@@ -18,9 +18,9 @@
         />
       </h2>
       <div class="links">
-        <a href="https://github.com/aimorris" target="_blank" class="button--custom button--github">GitHub</a>
-        <a href="https://gitlab.com/aimorris" target="_blank" class="button--custom button--gitlab">GitLab</a>
-        <a href="https://bitbucket.com/aimorris" target="_blank" class="button--custom button--bitbucket">BitBucket</a>
+        <a href="https://github.com/aimorris" target="_blank" class="button--custom button--github"><font-awesome-icon :icon="['fab', 'github-alt']"/></a>
+        <a href="https://gitlab.com/aimorris" target="_blank" class="button--custom button--gitlab"><font-awesome-icon :icon="['fab', 'gitlab']"/></a>
+        <a href="https://bitbucket.com/aimorris" target="_blank" class="button--custom button--bitbucket"><font-awesome-icon :icon="['fab', 'bitbucket']"/></a>
       </div>
     </div>
   </div>
