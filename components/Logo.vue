@@ -4,9 +4,8 @@
       cx="50"
       cy="50"
       r="40"
-      stroke="black"
-      stroke-width="3"
-      fill="red"
+      stroke="none"
+      fill="#FF0035"
     />
   </svg>
 </template>
