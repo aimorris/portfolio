@@ -29,7 +29,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src: '~/plugins/vueTyper.js', ssr: false}
+    {src: '~/plugins/vueTyper.js', ssr: false},
+    {src: '~/plugins/carousel.js', ssr: false}
   ],
   /*
   ** Nuxt.js dev-modules

@@ -31,22 +31,6 @@
   </div>
 </template>
 
-<script>
-import { Carousel, Slide } from 'vue-carousel';
-
-export default {
-  components: {
-    Carousel,
-    Slide
-  }
-};
-
-const buildSlide = (imgUrl, quote, author) => {
-  let slideMarkup = '';
-
-}
-</script>
-
 <style lang="scss">
   .VueCarousel {
     width: 100vw;
