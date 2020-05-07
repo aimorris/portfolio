@@ -37,10 +37,8 @@
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 5vw;
   color: #191D32;
   letter-spacing: 1px;
