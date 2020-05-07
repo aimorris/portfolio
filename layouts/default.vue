@@ -40,48 +40,6 @@ html {
   margin: 0;
 }
 
-.button--custom {
-  text-decoration: none;
-  padding: 1vw 3vw;
-  margin: 0 1.5vw;
-  display: inline-block;
-  border-radius: 4px;
-
-  transition: all 0.2s;
-}
-
-.button--github {
-  border: 1px solid #666;
-  color: #666;
-}
-
-.button--github:hover {
-  color: #fff;
-  background-color: #666;
-}
-
-.button--gitlab {
-  border: 1px solid #FC6D27;
-  color: #FC6D27;
-
-  transition:
-}
-
-.button--gitlab:hover {
-  color: #fff;
-  background-color: #FC6D27;
-}
-
-.button--bitbucket {
-  border: 1px solid #2684FF;
-  color: #2684FF;
-}
-
-.button--bitbucket:hover {
-  color: #fff;
-  background-color: #2684FF;
-}
-
 #particles-js {
   height: 100vh !important;
   width: 100vw !important;

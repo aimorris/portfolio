@@ -61,4 +61,45 @@
 .links {
   padding-top: 15px;
 }
+
+.button--custom {
+  text-decoration: none;
+  padding: 1vw 3vw;
+  margin: 0 1.5vw;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid;
+
+  transition: all 0.2s;
+}
+
+.button--github {
+  border-color: #666;
+  color: #666;
+}
+
+.button--github:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+.button--gitlab {
+  border-color: #FC6D27;
+  color: #FC6D27;
+}
+
+.button--gitlab:hover {
+  color: #fff;
+  background-color: #FC6D27;
+}
+
+.button--bitbucket {
+  border-color: #2684FF;
+  color: #2684FF;
+}
+
+.button--bitbucket:hover {
+  color: #fff;
+  background-color: #2684FF;
+}
 </style>

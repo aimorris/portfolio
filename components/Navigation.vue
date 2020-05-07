@@ -15,17 +15,26 @@
           <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>
         </div>
         <div class="navbar-end">
-          <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
-          <nuxt-link to="/projects" class="navbar-item">Projects</nuxt-link>
-          <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
-          <nuxt-link to="/testimonials" class="navbar-item">Testimonials</nuxt-link>
-          <nuxt-link to="/contact" class="navbar-item">Contact</nuxt-link>
+          <nuxt-link to="/" class="navbar-item">
+            Home
+          </nuxt-link>
+          <nuxt-link to="/projects" class="navbar-item">
+            Projects
+          </nuxt-link>
+          <nuxt-link to="/about" class="navbar-item">
+            About
+          </nuxt-link>
+          <nuxt-link to="/testimonials" class="navbar-item">
+            Testimonials
+          </nuxt-link>
+          <nuxt-link to="/contact" class="navbar-item">
+            Contact
+          </nuxt-link>
         </div>
       </div>
     </nav>
     <script>
       let burger = document.querySelector('.burger')
-
       burger.addEventListener('click', function () {
         burger.classList.toggle('is-active')
         document.querySelector(burger.dataset.target).classList.toggle('is-active')
