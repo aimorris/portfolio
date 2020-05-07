@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target=".navbar-menu">
           <span aria-hidden="true" />
@@ -15,11 +15,11 @@
           <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>
         </div>
         <div class="navbar-end">
-          <a href="/" class="navbar-item">Home</a>
-          <a href="/projects" class="navbar-item">Projects</a>
-          <a href="/about" class="navbar-item">About</a>
-          <a href="/about" class="navbar-item">Testimonials</a>
-          <a href="/contact" class="navbar-item">Contact</a>
+          <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
+          <nuxt-link to="/projects" class="navbar-item">Projects</nuxt-link>
+          <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
+          <nuxt-link to="/testimonials" class="navbar-item">Testimonials</nuxt-link>
+          <nuxt-link to="/contact" class="navbar-item">Contact</nuxt-link>
         </div>
       </div>
     </nav>

@@ -1,15 +1,21 @@
 <template>
   <div>
     <Navigation />
+    <client-only>
+      <Particles />
+    </client-only>
     <nuxt />
   </div>
 </template>
 
 <script>
 import Navigation from '~/components/Navigation.vue'
+import Particles from '~/components/Particles.vue'
+
 export default {
   components: {
-    Navigation
+    Navigation,
+    Particles
   }
 }
 </script>
@@ -74,5 +80,25 @@ html {
 .button--bitbucket:hover {
   color: #fff;
   background-color: #2684FF;
+}
+
+#particles-js {
+  height: 100vh !important;
+  width: 100vw !important;
+  position: fixed !important;
+  top: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  z-index: -1 !important;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: all .30s ease-out;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
 }
 </style>
