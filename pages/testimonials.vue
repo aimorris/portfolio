@@ -51,7 +51,7 @@ const buildSlide = (imgUrl, quote, author) => {
   .VueCarousel {
     width: 100vw;
     .VueCarousel-navigation-button {
-      font-size: 3em;
+      font-size: 3vw;
       color: #191D32;
       transition: color 0.3s;
       outline: none;
@@ -66,12 +66,17 @@ const buildSlide = (imgUrl, quote, author) => {
       text-align: center;
 
       img {
-        height: 100%;
+        height: auto;
+        width: 80%;
       }
 
       a {
         color: #191D32;
         text-decoration: underline;
+      }
+
+      p {
+        font-size: 1em;
       }
     }
   }
