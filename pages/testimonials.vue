@@ -4,8 +4,8 @@
       :perPage="1"
       :paginationEnabled="false"
       :navigationEnabled="true"
-      :navigationNextLabel="'&#11166;'"
-      :navigationPrevLabel="'&#11164;'"
+      :navigationNextLabel="'>'"
+      :navigationPrevLabel="'<'"
     >
       <slide>
         <img src="~/assets/exercism.svg" alt="Exercism logo">
