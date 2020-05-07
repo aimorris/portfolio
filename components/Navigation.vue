@@ -37,8 +37,9 @@
 <style lang="scss">
   .navbar-item {
     transition: color 0.3s;
-    &:hover {
-      color: #5D5D81;
-    }
+  }
+
+  .nuxt-link-exact-active {
+    color: #A499B3;
   }
 </style>
