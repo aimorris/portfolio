@@ -9,10 +9,10 @@
           I am a
           <vue-typer
             :text="['web developer', 'Minecraft plugin creator', 'contributor for open-source projects', 'JavaScript developer']"
-            :shuffle="true"
             caret-animation="smooth"
-            :erase-delay="100"
+            erase-delay="100"
             erase-style="backspace"
+            initial-action='erasing'
           />
         </h2>
         <div class="links">
@@ -54,8 +54,12 @@
   padding-bottom: 15px;
 }
 
-.vue-typer .custom.char.typed, .vue-typer .custom.caret {
+.vue-typer .custom.char.typed {
   color: #38405F;
+}
+
+.custom.caret {
+  background-color: #38405F;
 }
 
 .links {
