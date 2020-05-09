@@ -1,4 +1,4 @@
-# portfolio
+# Adam Morris' portfolio
 
 > Adam Morris&#39; portfolio
 
@@ -19,4 +19,5 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Info
+Portfolio of Adam Morris designed using Vue.js with Nuxt.js https://aimorris.com
