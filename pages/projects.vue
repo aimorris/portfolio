@@ -100,7 +100,7 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/virtual-enchant" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/virtual-enchant.78560/" class="button--custom">Spigot</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/virtual-enchant.78560/" class="button--custom">Site</a>
         </div>
       </slide>
 
@@ -114,7 +114,7 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/time-changer" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/timechanger.77522/" class="button--custom">Spigot</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/timechanger.77522/" class="button--custom">Site</a>
         </div>
       </slide>
 
@@ -128,7 +128,7 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/flaming-head" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/flaming-head.77690/" class="button--custom">Spigot</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/flaming-head.77690/" class="button--custom">Site</a>
         </div>
       </slide>
 
