@@ -4,11 +4,12 @@
       :perPage="1"
       :paginationEnabled="false"
       :navigationEnabled="true"
-      :navigationNextLabel="'>'"
-      :navigationPrevLabel="'<'"
+      navigationNextLabel=">"
+      navigationPrevLabel="<"
     >
+
       <slide>
-        <img src="~/assets/exercism.svg" alt="Exercism logo">
+        <img src="~/assets/exercism.svg">
         <div class="text">
           <h1>Exercism V3</h1>
           <br>
@@ -21,7 +22,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/exercism.svg" alt="Exercism logo">
+        <img src="~/assets/exercism.svg">
         <div class="text">
           <h1>Exercism V2 Solutions</h1>
           <br>
@@ -35,7 +36,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/flightscope.png" alt="Flightscope Aviation logo" style="width: 100%">
+        <img src="~/assets/flightscope.png">
         <div class="text">
           <h1>Flightscope Aviation Website</h1>
           <br>
@@ -49,7 +50,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/lichess.svg" alt="Lichess logo">
+        <img src="~/assets/lichess.svg">
         <div class="text">
           <h1>Lichess</h1>
           <br>
@@ -63,7 +64,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/upenn.png" alt="University of Pennsylvania logo">
+        <img src="~/assets/upenn.png">
         <div class="text">
           <h1>CIS194 Solutions</h1>
           <br>
@@ -77,7 +78,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/game-of-life.gif" alt="Game of Life logo">
+        <img src="~/assets/game-of-life.gif">
         <div class="text">
           <h1>TroTae's implementation of Conway's Game of Life</h1>
           <br>
@@ -91,7 +92,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/minecraft.png" alt="Minecraft logo">
+        <img src="~/assets/minecraft.png">
         <div class="text">
           <h1>Virtual Enchant</h1>
           <br>
@@ -105,7 +106,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/minecraft.png" alt="Minecraft logo">
+        <img src="~/assets/minecraft.png">
         <div class="text">
           <h1>Time Changer</h1>
           <br>
@@ -119,7 +120,7 @@
       </slide>
 
       <slide>
-        <img src="~/assets/minecraft.png" alt="Minecraft logo">
+        <img src="~/assets/minecraft.png">
         <div class="text">
           <h1>Flaming Head</h1>
           <br>
@@ -138,7 +139,6 @@
 
 <style lang="scss">
   .VueCarousel {
-    width: 100vw;
     .VueCarousel-navigation-button {
       font-size: 3vw;
       color: #191D32;
@@ -185,9 +185,5 @@
         background-color: #666;
       }
     }
-  }
-
-  .author {
-    font-weight: bold;
   }
 </style>

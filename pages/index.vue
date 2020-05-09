@@ -10,7 +10,7 @@
           <vue-typer
             :text="['web developer', 'contributor for open-source projects', 'front-end developer', 'freelancer']"
             caret-animation="smooth"
-            erase-delay="100"
+            :erase-delay="100"
             erase-style="backspace"
             initial-action='erasing'
           />
