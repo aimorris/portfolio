@@ -10,9 +10,9 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-brand">
-          <a href="https://github.com/aimorris" class="navbar-item navbar-github-icon"><font-awesome-icon :icon="['fab', 'github']" /></a>
-          <a href="https://gitlab.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'gitlab']" /></a>
-          <a href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris" class="navbar-item navbar-github-icon"><font-awesome-icon :icon="['fab', 'github']" /></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'gitlab']" /></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.com/aimorris" class="navbar-item"><font-awesome-icon :icon="['fab', 'bitbucket']" /></a>
         </div>
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item">

@@ -14,7 +14,7 @@
             Adam is an active maintainer on Exercism, working across a variety of tracks and leading development on PureScript. He has an keen attention to detail and a desire to see things done properly.
           </p>
           <br>
-          <p class="author">Jeremy Walker, co-founder at <a href="https://exercism.io">Exercism</a></p>
+          <p class="author">Jeremy Walker, co-founder at <a target="_blank" rel="noopener noreferrer" href="https://exercism.io">Exercism</a></p>
         </div>
       </slide>
       <slide>
@@ -24,7 +24,7 @@
             Providing front-end bug fixes as well as new UI/UX feature implementations, Adam has been a valuable contributor for the Lichess website.
           </p>
           <br>
-          <p class="author">Thibault Duplessis, founder at <a href="https://lichess.org">Lichess</a></p>
+          <p class="author">Thibault Duplessis, founder at <a target="_blank" rel="noopener noreferrer" href="https://lichess.org">Lichess</a></p>
         </div>
       </slide>
     </carousel>
