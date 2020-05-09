@@ -44,7 +44,7 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/flightscope/flightscopeaviation.com.au" class="button--custom">GitLab</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://flightscope.gitlab.io/flightscopeaviation.com.au/" class="button--custom">Site</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://flightscope.gitlab.io/flightscopeaviation.com.au" class="button--custom">Site</a>
         </div>
       </slide>
 
@@ -72,7 +72,7 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/cis194" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.cis.upenn.edu/~cis194/spring13/" class="button--custom">Site</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.cis.upenn.edu/~cis194/spring13" class="button--custom">Site</a>
         </div>
       </slide>
 
@@ -86,21 +86,49 @@
           </p>
           <br>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/troytae/game-of-life" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://troytae.github.io/game-of-life/" class="button--custom">Site</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://troytae.github.io/game-of-life" class="button--custom">Site</a>
         </div>
       </slide>
 
       <slide>
-        <img src="~/assets/game-of-life.gif" alt="Game of Life logo">
+        <img src="~/assets/minecraft.png" alt="Minecraft logo">
         <div class="text">
-          <h1>TroTae's implementation of Conway's Game of Life</h1>
+          <h1>Virtual Enchant</h1>
           <br>
           <p>
-            I have implemented new patterns for TroyTae's implementation of Conway's Game of Life for the web, written in TypeScript.
+            A Minecraft plugin that provides a virtual enchanting table via a command.
           </p>
           <br>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/troytae/game-of-life" class="button--custom">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://troytae.github.io/game-of-life/" class="button--custom">Site</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/virtual-enchant" class="button--custom">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/virtual-enchant.78560/" class="button--custom">Spigot</a>
+        </div>
+      </slide>
+
+      <slide>
+        <img src="~/assets/minecraft.png" alt="Minecraft logo">
+        <div class="text">
+          <h1>Time Changer</h1>
+          <br>
+          <p>
+            A Minecraft plugin that provides a GUI to change the world time.
+          </p>
+          <br>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/time-changer" class="button--custom">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/timechanger.77522/" class="button--custom">Spigot</a>
+        </div>
+      </slide>
+
+      <slide>
+        <img src="~/assets/minecraft.png" alt="Minecraft logo">
+        <div class="text">
+          <h1>Flaming Head</h1>
+          <br>
+          <p>
+            A Minecraft plugin that provides a flaming head particle effect.
+          </p>
+          <br>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris/flaming-head" class="button--custom">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.spigotmc.org/resources/flaming-head.77690/" class="button--custom">Spigot</a>
         </div>
       </slide>
 
