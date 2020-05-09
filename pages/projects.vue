@@ -4,8 +4,8 @@
       :perPage="1"
       :paginationEnabled="false"
       :navigationEnabled="true"
-      navigationNextLabel=">"
       navigationPrevLabel="<"
+      navigationNextLabel=">"
     >
 
       <slide>
