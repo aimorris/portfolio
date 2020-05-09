@@ -8,7 +8,7 @@
         <h2 class="subtitle">
           I am a
           <vue-typer
-            :text="['web developer', 'Minecraft plugin creator', 'contributor for open-source projects', 'JavaScript developer']"
+            :text="['web developer', 'contributor for open-source projects', 'JavaScript developer']"
             caret-animation="smooth"
             erase-delay="100"
             erase-style="backspace"
