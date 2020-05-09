@@ -1,10 +1,10 @@
-# Adam Morris' portfolio
+# Adam Morris's portfolio
 
-> Adam Morris&#39; portfolio
+> Adam Morris's portfolio
 
 ## Build Setup
 
-```bash
+```shell
 # install dependencies
 $ npm install
 
