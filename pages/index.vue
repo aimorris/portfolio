@@ -16,9 +16,9 @@
           />
         </h2>
         <div class="links">
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris" target="_blank" class="button--custom button--github">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/aimorris" target="_blank" class="button--custom button--gitlab">GitLab</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.com/aimorris" target="_blank" class="button--custom button--bitbucket">BitBucket</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/aimorris" class="button--custom button--github">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/aimorris" class="button--custom button--gitlab">GitLab</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.com/aimorris" class="button--custom button--bitbucket">BitBucket</a>
         </div>
       </div>
     </div>
